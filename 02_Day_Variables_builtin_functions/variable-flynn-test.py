@@ -81,5 +81,4 @@ print('num_int', int(num_int)) #10
 first_name = 'Flynn'
 print(first_name) #Flynn
 first_name_to_list = list(first_name)
-print(first_name_to_list) #['F', 'l', 'y', 'n',
-
+print(first_name_to_list) #['F', 'l', 'y', 'n', 'n']
