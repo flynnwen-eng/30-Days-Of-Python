@@ -37,3 +37,29 @@ mass = 75 # in Kg
 volume = 0.075 # in cubic meter
 density = mass / volume # 1000 Kg/m^3
 print(density, 'Kg/m^3')
+
+
+print(3 > 2)
+print(3 >= 2)
+print(3 < 2)
+print(2 < 3)
+print(3 != 2)
+print(len('mango') == len('avocado'))
+print(len('mango') != len('avocado'))
+print(len('mango') < len('avocado'))
+print(len('milk') == len('meat'))
+print(len('python') > len('dragon'))
+
+print('True == True: ', True == True)
+print('True == False: ', True == False)
+print('False == False: ', False == False)
+
+
+print('1 is 1', 1 is 1)
+print('1 is not 2', 1 is not 2)
+print('A in Asabeneh', 'A' in 'Asabeneh')
+print('B in Asabeneh', 'B' in 'Asabeneh')
+print('Coding' in 'Coding For All')
+print('a inan:', 'a' in 'an')
+print('4 is 2 ** 2:', 4 is 2 ** 2)
+
