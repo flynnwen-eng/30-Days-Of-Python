@@ -29,3 +29,13 @@ print('This is a backslash symbol (\\)')
 print('Always start every programming language with "Hello, World!"')
 
 
+language = 'Python'
+formated_string = 'I am %s %s. I teach %s' %(first_name, last_name, language)
+print(formated_string)
+
+radius = 10
+pi = 3.14
+area = pi * radius ** 2
+formated_string = 'The area of cicle with radius %d is %.2f.' %(radius, area)
+print (formated_string)
+
