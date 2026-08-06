@@ -40,3 +40,52 @@ print(num.isalpha())
 print(challenge.isdigit())
 challenge = '\u00B2'
 print(challenge.isdigit())
+
+challenge = 'Thirty'
+print(challenge.isdigit())
+challenge = '30'
+print(challenge.isdigit())
+challenge = '\u00B2'
+print(challenge.isdigit())
+
+num = '10'
+print(num.isnumeric())
+num = '\u00BD'
+print(num.isnumeric())
+num = '10.5'
+print(num.isnumeric())
+
+challenge = 'thirty days of python'
+print(challenge.islower())
+challenge = 'THIRTY DAYS OF PYTHON'
+print(challenge.isupper())
+
+web_tech = ['HTML', 'CSS', 'JavaScript', 'React']
+result = ' '.join(web_tech)
+print(result)
+
+web_tech = ['HTML', 'CSS', 'JavaScript', 'React']
+result = '# '.join(web_tech)
+print(result)
+
+challenge = 'thirty days of pythoonnn'
+print(challenge.strip('noth'))
+challenge = 'thirty days of python'
+print(challenge.replace('python', 'coding'))
+challenge = 'thirty days of python'
+print(challenge.split())
+challenge = 'thiry, days, of, python'
+print(challenge.split(','))
+
+challenge = 'thirty days of python'
+print(challenge.title())
+
+challenge = 'thirty days of python'
+print(challenge.swapcase())
+challenge = 'Thirty Days Of Python'
+print(challenge.swapcase())
+
+challenge = 'thirty days of python'
+print(challenge.startswith('thirty'))
+challenge = '30 days of python'
+print(challenge.startswith('thirty'))

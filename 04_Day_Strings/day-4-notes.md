@@ -25,3 +25,14 @@ Learned more slicing of python strings, how we can use the index to display lett
 
 Further reviewed how to provide true or false statements in regards to if a string is a digit, is alphanumeric, or simply a number.
 
+Using the isidentifier() checks if a string is a valid variable name, for example '30DaysOfPython' would result in false due to this beginning with a number.
+
+
+islower() checks if all alphabetical characters in the string are lowercase while isupper() check if all alphabetical characters are uppercase.
+
+split() splits the string using given string or space as the separator.
+
+title() returns a title cased string.
+
+
+startswith() checks if string starts with the specified value
